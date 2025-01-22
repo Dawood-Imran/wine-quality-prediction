@@ -1,0 +1,20 @@
+model:
+  name: wine_quality_predictor
+  version: 1.0
+
+data:
+  source: wine_quality_dataset.csv
+  split:
+    train: 80%
+    test: 20%
+
+training:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
