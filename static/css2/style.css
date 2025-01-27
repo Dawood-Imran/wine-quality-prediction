@@ -25,10 +25,10 @@ body {
 	-ms-border-radius: 15px;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
-	margin: 185px 0;
+	margin: 150px 0;
 	font-family: 'Nunito', sans-serif;
 	color: #fff;
-	font-weight: 700;
+	font-weight: 200;
 	font-size: 16px;
 	position: relative;
 }
@@ -37,7 +37,7 @@ body {
 	position: relative;
 }
 .form-v9-content .form-detail h2 {
-	font-size: 35px;
+	font-size: 30px;
 	text-align: center;
 	position: relative;
 	padding: 16px 0 13px;
